@@ -99,3 +99,8 @@ repositories:
     type: git
     url: git@github.com:keita1523/ros2_whill_interfaces.git
     version: humble
+  # aw-whill interface
+  vendor/aw_whill_interface
+    type: git
+    url: git@github.com:keita1523/aw_whill_interface.git
+    version: humble
