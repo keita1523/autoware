@@ -23,7 +23,7 @@ repositories:
   # universe
   universe/autoware.universe:
     type: git
-    url: git@github.com:keita1523/autoware.git
+    url: git@github.com:keita1523/autoware.universe.git
     version: whill-develop
   universe/external/tier4_ad_api_adaptor: # TODO(TIER IV): Improve design/code and transfer to AWF
     type: git
