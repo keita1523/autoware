@@ -68,19 +68,27 @@ repositories:
     url: https://github.com/tier4/velodyne_vls.git
     version: tier4/universe
   # sensor_kit
-  sensor_kit/sample_sensor_kit_launch:
+  sensor_kit/whill_sensor_kit_launch:
     type: git
-    url: https://github.com/autowarefoundation/sample_sensor_kit_launch.git
-    version: main
+    url: git@github.com:keita1523/whill_sensor_kit_launch.git
+    version: whill-develop
+  # sensor_kit/sample_sensor_kit_launch:
+  #   type: git
+  #   url: https://github.com/autowarefoundation/sample_sensor_kit_launch.git
+  #   version: main
   sensor_kit/external/awsim_sensor_kit_launch: # TODO: Integrate into sample_sensor_kit_launch
     type: git
     url: https://github.com/RobotecAI/awsim_sensor_kit_launch.git
     version: main
   # vehicle
-  vehicle/sample_vehicle_launch:
+  vehicle/whill_vehicle_launch:
     type: git
-    url: https://github.com/autowarefoundation/sample_vehicle_launch.git
-    version: main
+    url: git@github.com:keita1523/whill_vehicle_launch.git
+    version: whill-develop
+  # vehicle/sample_vehicle_launch:
+  #   type: git
+  #   url: https://github.com/autowarefoundation/sample_vehicle_launch.git
+  #   version: main
   vehicle/external/pacmod_interface:
     type: git
     url: https://github.com/tier4/pacmod_interface.git
@@ -100,7 +108,7 @@ repositories:
     url: git@github.com:keita1523/ros2_whill_interfaces.git
     version: humble
   # aw-whill interface
-  vendor/aw_whill_interface
+  vendor/aw_whill_interface:
     type: git
     url: git@github.com:keita1523/aw_whill_interface.git
     version: humble
