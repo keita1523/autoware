@@ -3,23 +3,23 @@ repositories:
   core/autoware_msgs:
     type: git
     url: https://github.com/autowarefoundation/autoware_msgs.git
-    version: main
+    version: 2ca93de0974af3015b7c394dc106a848b13aae7b # main
   core/autoware_adapi_msgs:
     type: git
     url: https://github.com/autowarefoundation/autoware_adapi_msgs.git
-    version: main
+    version: 9679b5a7a1f4cfff2fa50b80d2759d3937f2f953 # main
   core/autoware_common:
     type: git
     url: https://github.com/autowarefoundation/autoware_common.git
-    version: main
+    version: 6916df26fafe6749db4b1d5bd6636a92444fc48d # main
   core/autoware.core:
     type: git
     url: https://github.com/autowarefoundation/autoware.core.git
-    version: main
+    version: 6bafedfb24fb34157ed65bfe3f6f4c1ed0fbc80b # main
   core/external/autoware_auto_msgs: # TODO(mfc): Remove when autoware_msgs is merged
     type: git
     url: https://github.com/tier4/autoware_auto_msgs.git
-    version: tier4/main
+    version: 636064fe3e73e33c5df4f65deabe63432ce0a8cd # tier4/main
   # universe
   universe/autoware.universe:
     type: git
@@ -28,45 +28,45 @@ repositories:
   universe/external/tier4_ad_api_adaptor: # TODO(TIER IV): Improve design/code and transfer to AWF
     type: git
     url: https://github.com/tier4/tier4_ad_api_adaptor.git
-    version: tier4/universe
+    version: aa1836ef5b52c5d85d9daa8d2113a864e68d1f5d # tier4/universe
   universe/external/tier4_autoware_msgs:
     type: git
     url: https://github.com/tier4/tier4_autoware_msgs.git
-    version: tier4/universe
+    version: a360ee9f5235a0d426427813f26e43027e32139d # tier4/universe
   universe/external/morai_msgs:
     type: git
     url: https://github.com/MORAI-Autonomous/MORAI-ROS2_morai_msgs.git
-    version: main
+    version: 6fd6a711e4bbf8a9989b54028e8074acabbbce6f # main
   universe/external/muSSP:
     type: git
     url: https://github.com/tier4/muSSP.git
-    version: tier4/main
+    version: c79e98fd5e658f4f90c06d93472faa977bc873b9 # tier4/main
   universe/external/ndt_omp:
     type: git
     url: https://github.com/tier4/ndt_omp.git
-    version: tier4/main
+    version: f59e1667390fe66d72c5c3aa0b25385b5b6dd8cf # tier4/main
   universe/external/pointcloud_to_laserscan:
     type: git
     url: https://github.com/tier4/pointcloud_to_laserscan.git
-    version: tier4/main
+    version: 948a4fca35dcb03c6c8fbfa610a686f7c919fe0b # tier4/main
   # launcher
   launcher/autoware_launch:
     type: git
     url: https://github.com/autowarefoundation/autoware_launch.git
-    version: main
+    version: c84daa2d68e81437871a0336bd22ca5e6bacf78e # main
   # sensor_component
   sensor_component/external/sensor_component_description:
     type: git
     url: https://github.com/tier4/sensor_component_description.git
-    version: main
+    version: 475857daeb4c4883ab0295336713364b326e8278 # main
   sensor_component/external/tamagawa_imu_driver:
     type: git
     url: https://github.com/tier4/tamagawa_imu_driver.git
-    version: ros2
+    version: 28ad3cd4fb043e5f92353a540c3531cd4cb7bef3 # ros2
   sensor_component/external/velodyne_vls:
     type: git
     url: https://github.com/tier4/velodyne_vls.git
-    version: tier4/universe
+    version: baeafaf9a376c5798f7b67a77211890c33900f84 # tier4/universe
   # sensor_kit
   sensor_kit/whill_sensor_kit_launch:
     type: git
@@ -79,7 +79,7 @@ repositories:
   sensor_kit/external/awsim_sensor_kit_launch: # TODO: Integrate into sample_sensor_kit_launch
     type: git
     url: https://github.com/RobotecAI/awsim_sensor_kit_launch.git
-    version: main
+    version: d9022ee9bbfd958c239b673cfbb230eea50607be # main
   # vehicle
   vehicle/whill_vehicle_launch:
     type: git
@@ -92,12 +92,12 @@ repositories:
   vehicle/external/pacmod_interface:
     type: git
     url: https://github.com/tier4/pacmod_interface.git
-    version: main
+    version: b5ae20345f2551da0c6e4140a3dc3479d64efd1f # main
   # param
   param/autoware_individual_params:
     type: git
     url: https://github.com/autowarefoundation/autoware_individual_params.git
-    version: main
+    version: 79cff0ba014808050be6f5cb3b4764ba2c96c21c # main
   # whill
   whill/ros2_whill:
     type: git
