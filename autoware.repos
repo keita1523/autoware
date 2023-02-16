@@ -52,8 +52,8 @@ repositories:
   # launcher
   launcher/autoware_launch:
     type: git
-    url: https://github.com/autowarefoundation/autoware_launch.git
-    version: c84daa2d68e81437871a0336bd22ca5e6bacf78e # main
+    url: git@github.com:keita1523/autoware_launch.git
+    version: whill-develop # main
   # sensor_component
   sensor_component/external/sensor_component_description:
     type: git
