@@ -23,8 +23,8 @@ repositories:
   # universe
   universe/autoware.universe:
     type: git
-    url: git@github.com:keita1523/autoware.universe.git
-    version: whill-develop
+    url: https://github.com/keita1523/autoware.universe.git
+    version: ctc
   universe/external/tier4_ad_api_adaptor: # TODO(TIER IV): Improve design/code and transfer to AWF
     type: git
     url: https://github.com/tier4/tier4_ad_api_adaptor.git
@@ -52,8 +52,8 @@ repositories:
   # launcher
   launcher/autoware_launch:
     type: git
-    url: git@github.com:keita1523/autoware_launch.git
-    version: whill-develop # main
+    url: https://github.com/keita1523/autoware_launch.git
+    version: ctc # main
   # sensor_component
   sensor_component/external/sensor_component_description:
     type: git
@@ -70,8 +70,8 @@ repositories:
   # sensor_kit
   sensor_kit/whill_sensor_kit_launch:
     type: git
-    url: git@github.com:keita1523/whill_sensor_kit_launch.git
-    version: whill-develop
+    url: https://github.com/keita1523/whill_sensor_kit_launch.git
+    version: ctc
   # sensor_kit/sample_sensor_kit_launch:
   #   type: git
   #   url: https://github.com/autowarefoundation/sample_sensor_kit_launch.git
@@ -83,8 +83,8 @@ repositories:
   # vehicle
   vehicle/whill_vehicle_launch:
     type: git
-    url: git@github.com:keita1523/whill_vehicle_launch.git
-    version: whill-develop
+    url: https://github.com/keita1523/whill_vehicle_launch.git
+    version: ctc
   # vehicle/sample_vehicle_launch:
   #   type: git
   #   url: https://github.com/autowarefoundation/sample_vehicle_launch.git
@@ -101,14 +101,14 @@ repositories:
   # whill
   whill/ros2_whill:
     type: git
-    url: git@github.com:keita1523/ros2_whill.git
-    version: humble
+    url: https://github.com/keita1523/ros2_whill.git
+    version: ctc
   whill/ros2_whill_interfaces:
     type: git
-    url: git@github.com:keita1523/ros2_whill_interfaces.git
-    version: humble
+    url: https://github.com/keita1523/ros2_whill_interfaces.git
+    version: ctc
   # aw-whill interface
   vendor/aw_whill_interface:
     type: git
-    url: git@github.com:keita1523/aw_whill_interface.git
-    version: humble
+    url: https://github.com/keita1523/aw_whill_interface.git
+    version: ctc
